@@ -19,3 +19,6 @@ const products = [
 
 const promotionCode = "";
 // เริ่มเขียนโค้ดตรงนี้
+function calculateTotalPrice (promotionCode, products) {
+ 
+}
