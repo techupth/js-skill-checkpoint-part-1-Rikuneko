@@ -9,4 +9,4 @@ const myTodo = [
 myTodo[4] = {id: 5, todo: "Walk the dog"}
 myTodo[3].todo = "Go to the gym"
 myTodo.pop();
-console.log(`Todo - ${myTodo[3].todo}`) //ติด
+console.log(`Todo - id: ${myTodo[3].id}, ${myTodo[3].todo}`) //เพิ่ม

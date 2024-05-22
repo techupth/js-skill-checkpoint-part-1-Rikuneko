@@ -5,3 +5,14 @@ const inventory = [
   { name: "Orange", price: 30, quantity: 60 },
 ];
 // เริ่มเขียนโค้ดตรงนี้
+let minName = "สินค้าที่มีจำนวนต่ำที่สุดในคลังสินค้าคือ"
+let minQuantity = inventory[0].quantity
+for (let i = 0; i < inventory.length; i++) {
+ if (minQuantity > inventory[i].quantity) {
+  minQuantity = inventory[i].quantity
+  minName = inventory[i].name
+}
+}
+console.log(`สินค้าที่มีจำนวนต่ำที่สุดในคลังสินค้าคือ ${minName} ซึ่งมี ${minQuantity} ชิ้น`)
+
+
