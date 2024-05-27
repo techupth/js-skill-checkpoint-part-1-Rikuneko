@@ -8,7 +8,7 @@ const inventory = [
 inventory[0].quantity = 200
 inventory[2] = {name: "Orange", price: 20, quantity: 300}
 
-totalValue = (inventory[0].price * inventory[0].quantity) + (inventory[1].price * inventory[1].quantity) + 
+const totalValue = (inventory[0].price * inventory[0].quantity) + (inventory[1].price * inventory[1].quantity) + 
 (inventory[2].price * inventory[2].quantity) 
 
 
