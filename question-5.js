@@ -23,6 +23,7 @@ function calculateTotalPrice (products, promotionCode) {
   let totalValue = 0
   for (let i = 0 ; i < products.length ; i++) {
     totalValue = totalValue + products[i].quantity * products[i].price 
+    console.log(totalValue);
   }
   if (promotionCode === "SALE50") {
     totalValue = totalValue / 2   
@@ -36,6 +37,8 @@ function calculateTotalPrice (products, promotionCode) {
   }
 }
  console.log(calculateTotalPrice(products, promotionCode));
+
+ //ให้ทิ้งไว้ก่อนแล้วมาเขียนด้วยตัวเอง 
 
 
 
